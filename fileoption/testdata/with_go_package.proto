@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package fileoption;
+
+option go_package = "github.com/pddg/protolint-plugin-sample";
+
+message Test {
+  string name = 1;
+}
